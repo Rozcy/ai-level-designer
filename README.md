@@ -57,7 +57,7 @@ ai-level-designer/
 ## Setup and Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/your-username/ai-level-designer.git
+git clone https://github.com/YegorCherov/ai-level-designer.git
 cd ai-level-designer
 ```
 2. Set up the server:
