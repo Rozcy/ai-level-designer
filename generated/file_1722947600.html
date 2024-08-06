@@ -1,0 +1,60 @@
+Here is a sample HTML code snippet for a feature in the `ai-level-designer` repository:
+```html
+<!-- src/components/LevelEditor/index.html -->
+
+<!-- Level Editor Component -->
+<div class="level-editor">
+  <!-- Header Section -->
+  <header>
+    <h1>Level Design</h1>
+    <button id="save-button">Save Level</button>
+    <button id="load-button">Load Level</button>
+  </header>
+
+  <!-- Grid Section -->
+  <section class="grid-section">
+    <!-- Grid Container -->
+    <div class="grid-container" id="level-grid">
+      <!-- Grid Cells -->
+      <div class="grid-cell" data-type="wall" data-x="0" data-y="0"></div>
+      <div class="grid-cell" data-type="platform" data-x="1" data-y="0"></div>
+      <div class="grid-cell" data-type="enemy" data-x="2" data-y="0"></div>
+      <!-- ... -->
+    </div>
+  </section>
+
+  <!-- Properties Panel Section -->
+  <aside class="properties-panel">
+    <!-- Entity Type Selection -->
+    <select id="entity-type-select">
+      <option value="wall">Wall</option>
+      <option value="platform">Platform</option>
+      <option value="enemy">Enemy</option>
+      <!-- ... -->
+    </select>
+
+    <!-- Entity Properties -->
+    <div class="properties" id="entity-properties">
+      <!-- Width and Height Input Fields -->
+      <label for="width-input">Width:</label>
+      <input type="number" id="width-input" value="10">
+      <label for="height-input">Height:</label>
+      <input type="number" id="height-input" value="5">
+    </div>
+
+    <!-- Color Palette -->
+    <div class="color-palette" id="color-palette">
+      <!-- Color Swatches -->
+      <button class="color-swatch" style="background-color: #ff0000;"></button>
+      <button class="color-swatch" style="background-color: #00ff00;"></button>
+      <button class="color-swatch" style="background-color: #0000ff;"></button>
+    </div>
+  </aside>
+</div>
+
+<!-- JavaScript Code to handle level grid and entity interactions -->
+<script src="script.js"></script>
+```
+This code snippet includes:
+
+* A
