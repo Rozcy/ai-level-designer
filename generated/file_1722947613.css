@@ -1,0 +1,86 @@
+Here's an example of a CSS code snippet that could be added to the `ai-level-designer` repository:
+
+```css
+/* 
+ * File: design-grid.css
+ * Description: Styles for the level designer grid.
+ */
+
+/**
+ * Grid container styles
+ */
+.grid-container {
+  /* Set the width and height of the grid container */
+  width: 800px;
+  height: 600px;
+
+  /* Add some basic styling to make it look like a grid */
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+  /* Set the gap between grid items */
+  grid-gap: 5px;
+}
+
+/**
+ * Grid item styles
+ */
+.grid-item {
+  /* Make each grid item a 100x100 box with some basic styling */
+  width: 100px;
+  height: 100px;
+
+  /* Add some background color to make it visible */
+  background-color: #f0f0f0;
+
+  /* Center the content horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Add a hover effect */
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
+```
+
+This code snippet could be added to the `src/styles/design-grid.css` file in the `ai-level-designer` repository.
+
+**API Documentation**
+
+You can add API documentation for this CSS code using a tool like JSDoc or a similar linter. Here's an example of how you might document the above code:
+
+```javascript
+/**
+ * @file design-grid.css
+ * @description Styles for the level designer grid.
+ */
+
+/**
+ * @module GridContainer
+ * @description The container element for the grid.
+ */
+.grid-container {
+  /* Set the width and height of the grid container */
+  width: 800px;
+  height: 600px;
+
+  /* Add some basic styling to make it look like a grid */
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+  /* Set the gap between grid items */
+  grid-gap: 5px;
+}
+
+/**
+ * @module GridItem
+ * @description A single item within the grid.
+ */
+.grid-item {
+  /*
