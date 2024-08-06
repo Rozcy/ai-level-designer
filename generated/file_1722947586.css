@@ -1,0 +1,65 @@
+Here's an example of a CSS code snippet for a feature in the `ai-level-designer` repository:
+
+```css
+/* 
+ * File: designer-feature.css
+ * Description: Styles for the AI Level Designer feature.
+ * Author: [Your Name]
+ */
+
+.designer-feature {
+  /* Container element for the AI Level Designer feature */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ai-designer-container {
+  /* Main container for the AI Level Designer UI components */
+  width: 80%;
+  max-width: 600px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the AI Level Designer canvas */
+.ai-designer-canvas {
+  /* Canvas element to render AI level designs */
+  width: 100%;
+  height: 400px;
+  border: 1px solid #ccc;
+}
+
+.ai-designer-tools {
+  /* Container element for AI level designer tools */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.ai-designer-tool-button {
+  /* Button elements to interact with AI level designs */
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ai-designer-tool-button:hover {
+  /* Hover effect for AI level designer tool buttons */
+  background-color: #3e8e41;
+}
+```
+
+In this example, we've created a CSS file named `designer-feature.css` that contains styles for the AI Level Designer feature. The code includes comments and docstrings to provide context about each section of the code.
+
+The styles define the layout and visual appearance of the AI Level Designer UI components, including the main container, canvas element, tools container, and tool buttons. We've also included hover effects for the tool buttons to make them more interactive.
+
+To use this CSS file in your project, you can simply include it in your HTML file using a `<link>` tag or import it into your JavaScript file using a CSS import statement.
